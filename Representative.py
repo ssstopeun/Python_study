@@ -27,18 +27,7 @@ if __name__ == '__main__':
             for x, y in score_list:
                 if y < smallest:
                     smallest = y
-                    representative_count +=1
-
-                # is_representative = True
-                # target_score1 = score_list1[i]
-                # target_score2 = score_list2[i]
-                # for j in range(applicant_num):
-                #     if target_score1 > score_list1[j]:
-                #         if target_score2 > score_list2[j]:
-                #             is_representative = False
-                #
-                # if is_representative:
-                #     representative_count = representative_count + 1
+                    representative_count +=10
 
             print("================output===================")
             print(representative_count)
